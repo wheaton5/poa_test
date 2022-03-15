@@ -1,0 +1,17 @@
+name: probabilistic partial order alignment
+version: "1.0"
+author: Haynes Heaton <whheaton@gmail.com>
+about: Forward/Backward algorithm applied to partial order alignments
+args:
+    - output:
+        long: output
+        short: o
+        takes_value: true
+        required: true
+        help: output directory
+    - subreads:
+        long: subreads
+        short: s
+        takes_value: true
+        help: subreads fasta
+        required: true

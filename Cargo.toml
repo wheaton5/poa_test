@@ -1,0 +1,11 @@
+[package]
+name = "probabilistic_poa"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+bio = "*"
+clap = {version = "~2.27.0", features = ["yaml"]}
+
